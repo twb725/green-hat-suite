@@ -28,7 +28,7 @@ apt-get install mingw-w64
 apt-get install wine
 
 # install tdm-gcc from sourceforge
-TMP=`mktemp /tmp/XXXXXXXXX.exe` && wget https://sourceforge.net/projects/tdm-gcc/files/latest/download -O $TMP && wine $TMP && rm $TMP
+TMP=`mktemp /tmp/XXXXXXXXX.exe` && wget https://jaist.dl.sourceforge.net/project/tdm-gcc/TDM-GCC%20Installer/tdm-gcc-5.1.0-3.exe -O $TMP && wine $TMP && rm $TMP
 ```
 
 ## Install on windows   
